@@ -17,13 +17,13 @@ public class Tugas_3 {
         short number1;
         
         int 2beOrNot2be;
-// karena nama variabel tidak boleh menggunakan nama diawal
+// karena nama variabel tidak boleh menggunakan angka diawal
         float price index;
 // karena nama variabel tidak boleh menggunakan spasi
         double lastYear'sPrice;
 // karena nama variabel tidak boleh menggunakan tanda simbol
         long class;
-// karena nama variabel tidak bolehmenggunakan qword pada java 
+// karena nama variabel tidak boleh menggunakan keyword pada java 
     }
           
 }
