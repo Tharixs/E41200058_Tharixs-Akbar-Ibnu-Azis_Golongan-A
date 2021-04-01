@@ -24,7 +24,6 @@ public class Tugas_1 {
         for (int i = F; i < L; i++) {
             if (i % 2 == 0) {
                 System.out.print(i+" ");
-
             }
         }
 

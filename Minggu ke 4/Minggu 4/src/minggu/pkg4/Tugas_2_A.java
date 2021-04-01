@@ -11,13 +11,15 @@ import java.util.Scanner;
  *
  * @author Tharixs Akbar Ibnu A
  */
-public class Tugas_2 {
+public class Tugas_2_A {
     
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Masukkan Batas Nilai = ");
         int batas = in.nextInt();
         System.out.println("");
+        
+        
         System.out.println("         do_while");
         System.out.print("Bilangan kelipatan (2 - "+batas +")");
         System.out.println("");

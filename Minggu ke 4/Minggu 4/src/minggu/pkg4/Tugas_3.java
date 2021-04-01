@@ -29,21 +29,24 @@ public class Tugas_3 {
             Arr[i] = in.nextInt();
         }
         Arrays.sort(Arr);
+        
         int Max = Arr[0];
         int Min = Arr[0];
+        
         for (int i = 0; i < Arr.length; i++) {
-//            System.out.print(+Arr[i] + " ");
+            System.out.print(Arr[i] + " ");
 
             if (Max < Arr[i]) {
                 Max = Arr[i];
 
             }
-            if (Min > Arr[i]) {
+            else {
                 Min = Arr[i];
             }
         }
         double Hasil =0;
         double Rata=0;
+        
         for (int i = 0; i < Arr.length; i++) {
             double Jumlah = Arr[i];
             Rata += Jumlah ;
