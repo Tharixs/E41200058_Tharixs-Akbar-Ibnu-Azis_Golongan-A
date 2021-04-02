@@ -21,7 +21,7 @@ public class Tugas_2_A {
         
         
         System.out.println("         do_while");
-        System.out.print("Bilangan kelipatan (2 - "+batas +")");
+        System.out.print("Bilangan Perkalian (2 - "+batas +")");
         System.out.println("");
         int i = 1;
         do {
