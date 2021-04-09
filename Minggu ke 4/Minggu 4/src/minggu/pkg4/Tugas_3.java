@@ -17,8 +17,7 @@ public class Tugas_3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int data;
-        
-        
+
         System.out.print("Masukkan banyak data = ");
         data = in.nextInt();
         int[] Arr = new int[data];
@@ -29,32 +28,27 @@ public class Tugas_3 {
             Arr[i] = in.nextInt();
         }
         Arrays.sort(Arr);
-        
+
         int Max = Arr[0];
         int Min = Arr[0];
+        double Hasil = 0;
+        double Rata = 0;
         
         for (int i = 0; i < Arr.length; i++) {
-            System.out.print(Arr[i] + " ");
+            System.out.print( " ");
 
             if (Max < Arr[i]) {
                 Max = Arr[i];
-
-            }
-            else {
+            } else {
                 Min = Arr[i];
             }
-        }
-        double Hasil =0;
-        double Rata=0;
-        
-        for (int i = 0; i < Arr.length; i++) {
             double Jumlah = Arr[i];
-            Rata += Jumlah ;
-             Hasil = Rata/Arr.length;
-            
+            Rata += Jumlah;
+            Hasil = Rata / Arr.length;
         }
+
         System.out.println("");
-        
+
         System.out.println("Nilai MAXIMUM = " + Max);
         System.out.println("Nilai MINIMUM = " + Min);
         System.out.println("Nilai Rata Rata = " + Hasil);
